@@ -1,0 +1,292 @@
+[
+  {
+    "id": "rice",
+    "name": "Rice",
+    "emoji": "🌾",
+    "season": "Summer",
+    "description": "Bangladesh's staple cereal, grown in flooded or well-watered fields.",
+    "growing_duration": "110–140 days",
+    "temperature_range": "25–35°C",
+    "soil_moisture": "High",
+    "soil_requirements": "Clay loam, holds water",
+    "nitrogen_requirement": "High",
+    "fertilizer_notes": "Split nitrogen applications; avoid over-application near flowering.",
+    "water_requirement": "High",
+    "water_demand_score": 3,
+    "pest_disease_notes": "Stem borer, blast, brown planthopper",
+    "drought_tolerance": "Low",
+    "is_legume": false,
+    "preceding_crops": [
+      "Mung Bean",
+      "Wheat",
+      "Mustard",
+      "Lentil"
+    ],
+    "following_crops": [
+      "Mung Bean",
+      "Wheat",
+      "Mustard",
+      "Lentil",
+      "Potato"
+    ],
+    "display_order": 1
+  },
+  {
+    "id": "mung",
+    "name": "Mung Bean",
+    "emoji": "🫛",
+    "season": "Summer",
+    "description": "A short-duration pulse that fits between main crops and adds nitrogen to the soil.",
+    "growing_duration": "60–75 days",
+    "temperature_range": "25–35°C",
+    "soil_moisture": "Moderate",
+    "soil_requirements": "Loam or sandy loam, well drained",
+    "nitrogen_requirement": "Low (fixes its own)",
+    "fertilizer_notes": "Light phosphorus; little nitrogen needed.",
+    "water_requirement": "Moderate–Low",
+    "water_demand_score": 1.5,
+    "pest_disease_notes": "Yellow mosaic virus, pod borer",
+    "drought_tolerance": "Moderate",
+    "is_legume": true,
+    "preceding_crops": [
+      "Rice",
+      "Wheat",
+      "Jute"
+    ],
+    "following_crops": [
+      "Rice",
+      "Wheat",
+      "Mustard"
+    ],
+    "display_order": 2
+  },
+  {
+    "id": "wheat",
+    "name": "Wheat",
+    "emoji": "🌿",
+    "season": "Winter",
+    "description": "A cool-season cereal sown after the monsoon rice harvest.",
+    "growing_duration": "105–120 days",
+    "temperature_range": "15–25°C",
+    "soil_moisture": "Moderate",
+    "soil_requirements": "Well-drained loam",
+    "nitrogen_requirement": "Moderate–High",
+    "fertilizer_notes": "Nitrogen split between sowing and tillering.",
+    "water_requirement": "Moderate",
+    "water_demand_score": 2,
+    "pest_disease_notes": "Leaf rust, wheat blast, aphids",
+    "drought_tolerance": "Moderate",
+    "is_legume": false,
+    "preceding_crops": [
+      "Rice",
+      "Mung Bean",
+      "Jute"
+    ],
+    "following_crops": [
+      "Rice",
+      "Mung Bean",
+      "Maize"
+    ],
+    "display_order": 3
+  },
+  {
+    "id": "maize",
+    "name": "Maize",
+    "emoji": "🌽",
+    "season": "Winter",
+    "description": "A high-yield cereal used for food and feed.",
+    "growing_duration": "130–150 days",
+    "temperature_range": "20–30°C",
+    "soil_moisture": "Moderate",
+    "soil_requirements": "Fertile, well-drained loam",
+    "nitrogen_requirement": "High",
+    "fertilizer_notes": "High demand; plan split nitrogen.",
+    "water_requirement": "Moderate–High",
+    "water_demand_score": 2.5,
+    "pest_disease_notes": "Fall armyworm, stalk rot",
+    "drought_tolerance": "Low–Moderate",
+    "is_legume": false,
+    "preceding_crops": [
+      "Mung Bean",
+      "Lentil",
+      "Rice"
+    ],
+    "following_crops": [
+      "Mung Bean",
+      "Lentil",
+      "Wheat"
+    ],
+    "display_order": 4
+  },
+  {
+    "id": "lentil",
+    "name": "Lentil",
+    "emoji": "🫘",
+    "season": "Winter",
+    "description": "A drought-tolerant winter pulse.",
+    "growing_duration": "100–115 days",
+    "temperature_range": "15–25°C",
+    "soil_moisture": "Low–Moderate",
+    "soil_requirements": "Loam, well drained",
+    "nitrogen_requirement": "Low (fixes its own)",
+    "fertilizer_notes": "Minimal; small phosphorus dose.",
+    "water_requirement": "Low",
+    "water_demand_score": 1,
+    "pest_disease_notes": "Rust, stemphylium blight",
+    "drought_tolerance": "High",
+    "is_legume": true,
+    "preceding_crops": [
+      "Rice",
+      "Jute",
+      "Maize"
+    ],
+    "following_crops": [
+      "Rice",
+      "Maize",
+      "Jute"
+    ],
+    "display_order": 5
+  },
+  {
+    "id": "mustard",
+    "name": "Mustard",
+    "emoji": "🌼",
+    "season": "Winter",
+    "description": "A short winter oilseed that fits tight rotations.",
+    "growing_duration": "80–100 days",
+    "temperature_range": "15–25°C",
+    "soil_moisture": "Low–Moderate",
+    "soil_requirements": "Loam to clay loam",
+    "nitrogen_requirement": "Moderate",
+    "fertilizer_notes": "Sulphur and boron often considered.",
+    "water_requirement": "Low–Moderate",
+    "water_demand_score": 1.2,
+    "pest_disease_notes": "Aphids, alternaria blight",
+    "drought_tolerance": "Moderate–High",
+    "is_legume": false,
+    "preceding_crops": [
+      "Rice",
+      "Mung Bean",
+      "Jute"
+    ],
+    "following_crops": [
+      "Rice",
+      "Mung Bean",
+      "Jute"
+    ],
+    "display_order": 6
+  },
+  {
+    "id": "potato",
+    "name": "Potato",
+    "emoji": "🥔",
+    "season": "Winter",
+    "description": "A cash crop grown in the cool dry months.",
+    "growing_duration": "85–100 days",
+    "temperature_range": "15–22°C",
+    "soil_moisture": "Moderate",
+    "soil_requirements": "Loose, well-drained sandy loam",
+    "nitrogen_requirement": "High",
+    "fertilizer_notes": "High nitrogen and potassium demand.",
+    "water_requirement": "Moderate",
+    "water_demand_score": 2.2,
+    "pest_disease_notes": "Late blight, tuber moth",
+    "drought_tolerance": "Low",
+    "is_legume": false,
+    "preceding_crops": [
+      "Rice",
+      "Jute",
+      "Mung Bean"
+    ],
+    "following_crops": [
+      "Rice",
+      "Mustard",
+      "Mung Bean"
+    ],
+    "display_order": 7
+  },
+  {
+    "id": "jute",
+    "name": "Jute",
+    "emoji": "🌱",
+    "season": "Summer",
+    "description": "A fibre crop suited to warm, humid conditions.",
+    "growing_duration": "110–130 days",
+    "temperature_range": "24–37°C",
+    "soil_moisture": "High",
+    "soil_requirements": "Alluvial loam",
+    "nitrogen_requirement": "Moderate",
+    "fertilizer_notes": "Moderate nitrogen; organic matter helps.",
+    "water_requirement": "Moderate–High",
+    "water_demand_score": 2.5,
+    "pest_disease_notes": "Stem weevil, root rot",
+    "drought_tolerance": "Low",
+    "is_legume": false,
+    "preceding_crops": [
+      "Wheat",
+      "Mustard",
+      "Lentil",
+      "Potato"
+    ],
+    "following_crops": [
+      "Wheat",
+      "Mustard",
+      "Lentil"
+    ],
+    "display_order": 8
+  },
+  {
+    "id": "tomato",
+    "name": "Tomato",
+    "emoji": "🍅",
+    "season": "Winter",
+    "description": "A high-value vegetable needing regular care.",
+    "growing_duration": "100–130 days",
+    "temperature_range": "18–28°C",
+    "soil_moisture": "Moderate",
+    "soil_requirements": "Fertile, well-drained loam",
+    "nitrogen_requirement": "Moderate–High",
+    "fertilizer_notes": "Balanced feed; calcium considered.",
+    "water_requirement": "Moderate",
+    "water_demand_score": 2.2,
+    "pest_disease_notes": "Leaf curl virus, fruit borer",
+    "drought_tolerance": "Low",
+    "is_legume": false,
+    "preceding_crops": [
+      "Rice",
+      "Mung Bean"
+    ],
+    "following_crops": [
+      "Rice",
+      "Mung Bean"
+    ],
+    "display_order": 9
+  },
+  {
+    "id": "veg",
+    "name": "Vegetables",
+    "emoji": "🥬",
+    "season": "All Seasons",
+    "description": "Mixed seasonal vegetables for local markets.",
+    "growing_duration": "40–90 days",
+    "temperature_range": "18–32°C",
+    "soil_moisture": "Moderate",
+    "soil_requirements": "Rich loam with organic matter",
+    "nitrogen_requirement": "Moderate",
+    "fertilizer_notes": "Compost plus targeted feed.",
+    "water_requirement": "Moderate",
+    "water_demand_score": 2,
+    "pest_disease_notes": "Aphids, caterpillars, wilts",
+    "drought_tolerance": "Low",
+    "is_legume": false,
+    "preceding_crops": [
+      "Rice",
+      "Mung Bean"
+    ],
+    "following_crops": [
+      "Rice",
+      "Mung Bean"
+    ],
+    "display_order": 10
+  }
+]
